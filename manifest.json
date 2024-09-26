@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "@Viettoan1798",
+  "version": "1.0",
+  "description": "Thay thế file JavaScript trên trang web",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  
+
+  "web_accessible_resources": [
+    "replacement.js"
+  ]
+  
+}
