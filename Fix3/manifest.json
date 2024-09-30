@@ -1,30 +1,23 @@
 {
   "manifest_version": 2,
-  "name": "Bypass Moonbix v2 MMO101",
+  "name": "bypass phone",
   "version": "1.0",
-  "description": "Thay Thế File gốc ",
+  "description": "Thay thế file JavaScript trên trang web",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
     "<all_urls>"
   ],
   "background": {
-    "scripts": ["script.js"],
+    "scripts": ["background.js"],
     "persistent": true
   },
   
   "icons": {
-    "16": "images/icon16.png",
-    "48": "images/icon48.png",
-    "128": "images/icon128.png"
   },
 
   "web_accessible_resources": [
-    "page-6553.js"
-  ],
-
-  "browser_action": {
-    "default_popup": "popup.html",
-    "default_icon": "images/icon48.png"
-  }
+    "replacement.js"
+  ]
+  
 }
